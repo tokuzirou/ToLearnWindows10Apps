@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="sayHello.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:sayHello"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="sayHelloButton" Content="say Hello" Margin="0,683,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Button_Click" Width="500" Height="100" FontSize="72" FontWeight="Bold" FontStyle="Italic" Foreground="#FF2612E4" Background="#33002EFF"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Height="203" Width="800" Background="#661D4FFB" TextAlignment="Center" FontSize="72" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Page>
