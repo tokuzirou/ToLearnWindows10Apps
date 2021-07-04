@@ -11,6 +11,7 @@
     <Grid>
         <Button x:Name="sayHelloButton" Content="say Hello" Margin="0,683,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Button_Click" Width="500" Height="100" FontSize="72" FontWeight="Bold" FontStyle="Italic" Foreground="#FF2612E4" Background="#33002EFF"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Center" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Height="203" Width="800" Background="#661D4FFB" TextAlignment="Center" FontSize="72" FontWeight="Bold" FontStyle="Italic"/>
+        <Slider HorizontalAlignment="Left" Margin="261,178,0,0" VerticalAlignment="Top" Width="986" Height="147" FontSize="18" FontWeight="Normal" Visibility="Visible"/>
 
     </Grid>
 </Page>
